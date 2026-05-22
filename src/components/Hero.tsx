@@ -46,7 +46,7 @@ export default function Hero() {
         {/* Scripture quote */}
         <div className="animate-fade-in-up opacity-0 mt-12 border-t border-white/10 pt-6" style={{ animationDelay: '0.7s' }}>
           <blockquote className="mx-auto max-w-xl text-sm italic text-white/60 leading-relaxed">
-            "Going therefore, teach ye all nations… And behold I am with you all days, even to the consummation of the world."
+            "Go therefore and make disciples of all nations… and lo, I am with you always, to the close of the age."
             <cite className="mt-1 block not-italic text-gold-300/70 text-xs">— Matthew 28:19-20</cite>
           </blockquote>
         </div>
