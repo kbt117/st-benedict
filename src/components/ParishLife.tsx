@@ -81,7 +81,7 @@ export default function ParishLife() {
         {/* Quick Links Row */}
         <div className="mt-14 flex flex-wrap items-center justify-center gap-3">
           <QuickLink href="https://bible.usccb.org/daily-bible-reading" label="Daily Readings" />
-          <QuickLink href="http://www.usccb.org/bible/books-of-the-bible/index.cfm" label="Bible Online (USCCB)" />
+          <QuickLink href="http://www.usccb.org/bible/books-of-the-bible/index.cfm" label="Bible Online" />
           <QuickLink href="http://www.usccb.org/prayer-and-worship/prayers-and-devotions/rosaries/index.cfm" label="How to Pray the Rosary" />
           <QuickLink href="https://dioscg.org" label="Diocese Website" />
           <QuickLink href="https://www.facebook.com/stbenedictofdoniphan/" label="Facebook" />
