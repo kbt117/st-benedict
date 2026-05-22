@@ -48,7 +48,7 @@ export default function Sacraments() {
           <div className="mx-auto mt-4 h-1 w-16 rounded bg-gold-400" />
           <p className="mt-4 text-gray-500 max-w-lg mx-auto text-sm">
             For all sacramental inquiries, please contact the Parish Office at{' '}
-            <a href="tel:5733511107" className="font-semibold text-burgundy-500 hover:text-burgundy-700 underline decoration-burgundy-300">
+              <a href="tel:5733511107" className="inline-block whitespace-nowrap font-semibold text-burgundy-500 hover:text-burgundy-700 underline decoration-burgundy-300">
               573-351-1107
             </a>
           </p>
