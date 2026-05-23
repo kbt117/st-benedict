@@ -19,6 +19,7 @@ export default function ParishLife() {
             <div className="mt-5 space-y-4">
               <StaffMember role="Administrator" name="Father Allen Kirchner" />
               <StaffMember role="Associate Pastor" name="Father Samson Dorival" />
+              <StaffMember role="Secretary" name="" />
               <StaffMember role="PSR Director" name="Mrs. Terri Wright" />
             </div>
           </div>
@@ -31,7 +32,7 @@ export default function ParishLife() {
             <div className="mt-5 space-y-4">
               <div className="rounded-xl bg-white/5 p-4 border border-white/5">
                 <h4 className="font-semibold text-white text-sm">Parish School of Religion (PSR)</h4>
-                <p className="mt-1 text-sm text-white/60">Youth religious education program. Contact Terri at 996-4458 for info.</p>
+                <p className="mt-1 text-sm text-white/60">Youth religious education program. Contact Terri Wright for info.</p>
               </div>
               <div className="rounded-xl bg-white/5 p-4 border border-white/5">
                 <h4 className="font-semibold text-white text-sm">OCIA (formerly RCIA)</h4>
