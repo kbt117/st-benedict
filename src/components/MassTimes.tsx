@@ -1,6 +1,6 @@
 export default function MassTimes() {
   return (
-    <section id="mass-times" className="relative py-20 sm:py-28 bg-white">
+    <section id="mass-times" className="relative py-20 sm:py-28 bg-[#faf7f2]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="text-center">
