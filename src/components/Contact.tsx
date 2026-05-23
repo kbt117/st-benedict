@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+
 
 
 
@@ -142,7 +142,7 @@ function ContactRow({
   subValue,
   href,
 }: {
-  icon: ReactNode;
+  icon: React.ReactNode;
   label: string;
   value: string;
   subValue?: string;
