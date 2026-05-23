@@ -77,9 +77,19 @@ export default function Contact() {
               />
             </div>
           </div>
+          
+          {/* Right column */}
+          <div className="space-y-6">
+            {/* Stained glass image */}
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-amber-100/60">
+              <img
+                src="/images/stained-glass.jpg"
+                alt="Stained glass window at St. Benedict Catholic Church"
+                className="w-full h-72 sm:h-96 object-cover brightness-105 contrast-105 saturate-110"
+              />
+            </div>
 
-          {/* Become a Parishioner */}
-          <div>
+            {/* Become a Parishioner */}
             <div className="rounded-2xl border border-navy-100 bg-navy-50 p-6">
               <h4 className="font-semibold text-navy-800 text-sm flex items-center gap-2">
                 <span>📋</span> Become a Parishioner
