@@ -83,7 +83,7 @@ export default function Contact() {
             {/* Stained glass image */}
             <div className="rounded-2xl overflow-hidden shadow-lg border border-amber-100/60">
               <img
-                src="public/images/stained-glass.jpg"
+                src="./images/stained-glass.jpg"
                 alt="Stained glass window at St. Benedict Catholic Church"
                 className="w-full h-72 sm:h-96 object-cover brightness-105 contrast-105 saturate-110"
               />
