@@ -39,8 +39,8 @@ export default function ParishLife() {
                 <p className="mt-1 text-sm text-white/60">For adults interested in joining the Catholic Church.</p>
               </div>
               <div className="rounded-xl bg-white/5 p-4 border border-white/5">
-                <h4 className="font-semibold text-white text-sm">Grow + Go</h4>
-                <p className="mt-1 text-sm text-white/60">Scripture insights helping us grow as disciples and go evangelize, using the Sunday readings.</p>
+                <h4 className="font-semibold text-white text-sm">Foundations of Faith: A Journey Through the Catechism of the Catholic Church</h4>
+                <p className="mt-1 text-sm text-white/60">A spiritual pilgrimage that will transform the way you understand Catholic teachings and live the Catholic Faith. Sundays after Mass.</p>
               </div>
             </div>
           </div>
