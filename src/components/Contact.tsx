@@ -1,6 +1,8 @@
+import { useState } from 'react';
 
-
-
+export default function Contact() {
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -83,41 +85,72 @@
             </div>
           </div>
 
-          {/* Contact form — disabled / coming soon */}
+          {/* Contact form */}
           <div>
-            <div className="rounded-2xl border border-gray-200 bg-gradient-to-br from-gray-100/80 to-gray-50 p-6 sm:p-8 shadow-sm opacity-60 pointer-events-none select-none">
-              <h3 className="font-serif text-lg font-semibold text-gray-400">Send a Message</h3>
-              <p className="mt-1 text-sm text-gray-400">Contact form coming soon. In the meantime, please call or email us directly.</p>
+            <div className="rounded-2xl border border-gray-100 bg-gradient-to-br from-gray-50/80 to-white p-6 sm:p-8 shadow-sm">
+              <h3 className="font-serif text-lg font-semibold text-navy-800">Send a Message</h3>
+              <p className="mt-1 text-sm text-gray-500">We'll get back to you as soon as possible.</p>
 
-              <div className="mt-6 space-y-5">
-                <div>
-                  <label className="block text-sm font-medium text-gray-400">Name</label>
-                  <div className="mt-1.5 w-full rounded-xl border border-gray-200 bg-gray-100 px-4 py-3 text-sm text-gray-300">
-                    Your name
-                  </div>
+              {submitted ? (
+                <div className="mt-8 rounded-xl bg-green-50 border border-green-200 p-6 text-center">
+                  <span className="text-3xl">✉️</span>
+                  <h4 className="mt-2 font-semibold text-green-700">Message Sent!</h4>
+                  <p className="mt-1 text-sm text-green-600">Thank you for reaching out. We'll respond soon.</p>
+                  <button
+                    onClick={() => { setSubmitted(false); setFormData({ name: '', email: '', message: '' }); }}
+                    className="mt-4 text-sm font-medium text-green-600 hover:text-green-800 underline"
+                  >
+                    Send another message
+                  </button>
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-400">Email</label>
-                  <div className="mt-1.5 w-full rounded-xl border border-gray-200 bg-gray-100 px-4 py-3 text-sm text-gray-300">
-                    your@email.com
+              ) : (
+                <form onSubmit={handleSubmit} className="mt-6 space-y-5">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-navy-700">Name</label>
+                    <input
+                      id="name"
+                      type="text"
+                      required
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      className="mt-1.5 w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-800 shadow-sm outline-none transition-all focus:border-burgundy-300 focus:ring-2 focus:ring-burgundy-100"
+                      placeholder="Your name"
+                    />
                   </div>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-400">Message</label>
-                  <div className="mt-1.5 w-full rounded-xl border border-gray-200 bg-gray-100 px-4 py-3 text-sm text-gray-300 h-24">
-                    How can we help you?
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-navy-700">Email</label>
+                    <input
+                      id="email"
+                      type="email"
+                      required
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className="mt-1.5 w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-800 shadow-sm outline-none transition-all focus:border-burgundy-300 focus:ring-2 focus:ring-burgundy-100"
+                      placeholder="your@email.com"
+                    />
                   </div>
-                </div>
-                <button
-                  type="button"
-                  disabled
-                  className="w-full rounded-xl bg-gray-300 py-3 text-sm font-semibold text-gray-400 cursor-not-allowed"
-                >
-                  Coming Soon
-                </button>
-              </div>
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-navy-700">Message</label>
+                    <textarea
+                      id="message"
+                      rows={4}
+                      required
+                      value={formData.message}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                      className="mt-1.5 w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm text-gray-800 shadow-sm outline-none transition-all focus:border-burgundy-300 focus:ring-2 focus:ring-burgundy-100 resize-none"
+                      placeholder="How can we help you?"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="w-full rounded-xl bg-burgundy-500 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:bg-burgundy-600 hover:shadow-md"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              )}
             </div>
-            
+
             {/* Become a Parishioner */}
             <div className="mt-6 rounded-2xl border border-navy-100 bg-navy-50 p-6">
               <h4 className="font-semibold text-navy-800 text-sm flex items-center gap-2">
