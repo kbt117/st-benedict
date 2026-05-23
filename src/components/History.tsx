@@ -1,6 +1,6 @@
 export default function History() {
   return (
-    <section id="history" className="py-20 sm:py-28 bg-gradient-to-b from-gold-50/30 to-white">
+    <section id="history" className="py-20 sm:py-28 bg-gradient-to-b from-[#f5efe4] to-[#faf7f2]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center">
