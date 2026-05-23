@@ -61,28 +61,38 @@ export default function History() {
         </div>
 
         {/* Patron Saint callout */}
-        <div className="mt-20 rounded-2xl bg-gradient-to-br from-burgundy-600 to-burgundy-800 p-8 sm:p-10 text-white relative overflow-hidden">
+        <div className="mt-20 rounded-2xl bg-gradient-to-br from-burgundy-600 to-burgundy-800 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-burgundy-500/20 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
-          <div className="relative max-w-3xl">
-            <span className="text-xs font-semibold tracking-widest uppercase text-gold-300">Our Patron Saint</span>
-            <h3 className="mt-2 font-serif text-2xl font-bold text-white sm:text-3xl">
-              St. Benedict of Nursia
-            </h3>
-            <p className="mt-1 text-sm text-gold-200/70">c. 480 – c. 547 · Feast Day: July 11</p>
-            <p className="mt-4 text-sm leading-relaxed text-white/80">
-              Born into a distinguished family in Nursia, Italy, Benedict fled the vices of Rome to live 
-              as a hermit. He eventually founded the great monastery at Monte Cassino around 525 and 
-              wrote his famous Rule — prescribing a balanced life of prayer, study, and work. His Rule 
-              became the foundation of Western monasticism and influenced the spiritual life of the Church 
-              for centuries. Benedictine charity has always shown concern for the people in the surrounding 
-              countryside — a spirit that lives on in our parish today.
-            </p>
-            <p className="mt-3 text-xs text-white/50">
-              Patron of civil engineers, farmers, Europe, monks, schoolchildren, and spelunkers.
-            </p>
+          <div className="flex flex-col md:flex-row">
+            {/* Image */}
+            <div className="md:w-72 lg:w-80 shrink-0">
+              <img
+                src="https://www.scross.co.za/wp-content/uploads/2025/06/St-Benedict-of-Nursia.jpg"
+                alt="St. Benedict of Nursia"
+                className="h-64 w-full object-cover object-top md:h-full md:rounded-l-2xl"
+              />
+            </div>
+            {/* Text */}
+            <div className="relative p-8 sm:p-10 flex-1">
+              <span className="text-xs font-semibold tracking-widest uppercase text-gold-300">Our Patron Saint</span>
+              <h3 className="mt-2 font-serif text-2xl font-bold text-white sm:text-3xl">
+                St. Benedict of Nursia
+              </h3>
+              <p className="mt-1 text-sm text-gold-200/70">c. 480 – c. 547 · Feast Day: July 11</p>
+              <p className="mt-4 text-sm leading-relaxed text-white/80">
+                Born into a distinguished family in Nursia, Italy, Benedict fled the vices of Rome to live 
+                as a hermit. He eventually founded the great monastery at Monte Cassino around 525 and 
+                wrote his famous Rule — prescribing a balanced life of prayer, study, and work. His Rule 
+                became the foundation of Western monasticism and influenced the spiritual life of the Church 
+                for centuries. Benedictine charity has always shown concern for the people in the surrounding 
+                countryside — a spirit that lives on in our parish today.
+              </p>
+              <p className="mt-3 text-xs text-white/50">
+                Patron of civil engineers, farmers, Europe, monks, schoolchildren, and spelunkers.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }
