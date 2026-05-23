@@ -47,8 +47,8 @@ export default function Contact() {
                   </svg>
                 }
                 label="Email"
-                value="office@stbenedictdoniphan.com"
-                href="mailto:office@stbenedictdoniphan.com"
+                value="stb1849@windstream.net"
+                href="mailto:stb1849@windstream.net"
               />
               <ContactRow
                 icon={
