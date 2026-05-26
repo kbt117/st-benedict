@@ -20,7 +20,7 @@ export default function MassQuote() {
           the cross, for the victim is one and the same, namely, Christ our Lord, who offered Himself, 
           once only, a bloody Sacrifice on the altar of the cross. The bloody and unbloody victim are 
           not two, but one victim only, whose Sacrifice is daily renewed in the Eucharist, in obedience 
-          to the command of our Lord: <span className="text-gold-200 not-italic font-semibold">Do this for a commemoration of me.</span>"
+          to the command of our Lord: <span className="text-#9E3131 not-italic font-semibold">Do this for a commemoration of me.</span>"
         </blockquote>
 
         <cite className="mt-5 block text-sm not-italic text-gold-300/60">
