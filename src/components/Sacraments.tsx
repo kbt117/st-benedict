@@ -59,7 +59,7 @@ export default function Sacraments() {
           {sacraments.map((s) => (
             <div
               key={s.title}
-              className="group rounded-2xl border border-amber-100/60 bg-gradient-to-br from-[#fffdf9] to-[#faf7f2] transition-all hover:shadow-lg hover:border-burgundy-100 hover:-translate-y-1"
+              className="group rounded-2xl border border-amber-100/60 bg-gradient-to-br from-gray-50/50 to-white p-6 transition-all hover:shadow-lg hover:border-burgundy-100 hover:-translate-y-1"
             >
               <span className="text-3xl">{s.icon}</span>
               <h3 className="mt-3 font-serif text-lg font-semibold text-navy-800">{s.title}</h3>
