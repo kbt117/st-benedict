@@ -39,7 +39,7 @@ const sacraments = [
 
 export default function Sacraments() {
   return (
-    <section id="sacraments" className="py-20 sm:py-28 bg-white">
+    <section id="sacraments" className="py-20 sm:py-28 bg-[#faf7f2]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center">
