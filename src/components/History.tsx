@@ -139,8 +139,8 @@ export default function History() {
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {/* Front */}
             <div className="rounded-xl bg-white/80 border border-amber-100/60 p-6">
-              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center justify-center gap-2">
-                <span className="text-lg"></span> The Front — St. Benedict
+              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center justify-center">
+                The Front — St. Benedict
               </h4>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
                 The front depicts St. Benedict holding a cross in his right hand and his Holy Rule in the left. 
@@ -159,8 +159,8 @@ export default function History() {
             </div>
             {/* Back */}
             <div className="rounded-xl bg-white/80 border border-amber-100/60 p-6">
-              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center justify-center gap-2">
-                <span className="text-lg"></span> The Back — The Cross &amp; Exorcism
+              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center justify-center">
+                The Back — The Cross &amp; Exorcism
               </h4>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
                 The reverse bears a large cross with the word <strong>PAX</strong> (Peace) — the Benedictine motto — at the top. 
