@@ -105,7 +105,7 @@ export default function History() {
             <div className="text-center">
               <div className="inline-block rounded-full bg-white p-3 shadow-md border border-amber-100">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/St_Benedict_Medal_icon.svg/1280px-St_Benedict_Medal_icon.svg.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Saint_Benedict_Medal_icon.svg/1280px-Saint_Benedict_Medal_icon.svg.png"
                   alt="St. Benedict Medal — Front (Obverse)"
                   className="h-44 w-44 sm:h-52 sm:w-52 object-contain"
                 />
@@ -115,7 +115,7 @@ export default function History() {
             <div className="text-center">
               <div className="inline-block rounded-full bg-white p-3 shadow-md border border-amber-100">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Saint_Benedict_Medal_icon.svg/1280px-Saint_Benedict_Medal_icon.svg.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/St_Benedict_Medal_icon.svg/1280px-St_Benedict_Medal_icon.svg.png"
                   alt="St. Benedict Medal — Back (Reverse)"
                   className="h-44 w-44 sm:h-52 sm:w-52 object-contain"
                 />
