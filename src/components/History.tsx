@@ -139,7 +139,7 @@ export default function History() {
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {/* Front */}
             <div className="rounded-xl bg-white/80 border border-amber-100/60 p-6">
-              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center gap-2">
+              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center justify-center gap-2">
                 <span className="text-lg"></span> The Front — St. Benedict
               </h4>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
@@ -159,7 +159,7 @@ export default function History() {
             </div>
             {/* Back */}
             <div className="rounded-xl bg-white/80 border border-amber-100/60 p-6">
-              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center gap-2">
+              <h4 className="font-serif text-base font-semibold text-navy-800 flex items-center justify-center gap-2">
                 <span className="text-lg"></span> The Back — The Cross &amp; Exorcism
               </h4>
               <p className="mt-3 text-sm text-gray-600 leading-relaxed">
