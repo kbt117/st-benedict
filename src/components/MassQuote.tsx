@@ -23,7 +23,7 @@ export default function MassQuote() {
           to the command of our Lord: <span className="text-[#AD494A] not-italic font-semibold">Do this for a commemoration of me.</span>"
         </blockquote>
 
-        <cite className="mt-5 block text-sm not-italic text-gold-300/60">
+        <cite className="mt-5 block text-sm not-italic text-[#856A02]">
           — Catechism of the Council of Trent
         </cite>
       </div>
