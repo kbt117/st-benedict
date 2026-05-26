@@ -19,8 +19,6 @@ export default function ParishLife() {
             <div className="mt-5 space-y-4">
               <StaffMember role="Administrator" name="Father Allen Kirchner" />
               <StaffMember role="Associate Pastor" name="Father Samson Dorival" />
-              <StaffMember role="Secretary" name="" />
-              <StaffMember role="PSR Director" name="Mrs. Terri Wright" />
             </div>
           </div>
 
