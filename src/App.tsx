@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import MassTimes from './components/MassTimes';
+import Calendar from './components/Calendar';
 import MassQuote from './components/MassQuote';
 import About from './components/About';
 import Sacraments from './components/Sacraments';
@@ -15,6 +16,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <MassTimes />
+      <Calendar />
       <MassQuote />
       <About />
       <Sacraments />
