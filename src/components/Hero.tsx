@@ -12,8 +12,8 @@ export default function Hero() {
       </div>
 
       {/* St. Benedict image */}
-      <div className="animate-fade-in-up opacity-0 mb-6" style={{ animationDelay: '0.05s' }}>
-        <div className="inline-block rounded-full border-2 border-gold-300/40 p-1 shadow-2xl">
+      <div className="animate-fade-in-up opacity-0 mb-6 flex justify-center" style={{ animationDelay: '0.05s' }}>
+        <div className="rounded-full border-2 border-gold-300/40 p-1 shadow-2xl">
           <img
             src="https://www.scross.co.za/wp-content/uploads/2025/06/St-Benedict-of-Nursia.jpg"
             alt="St. Benedict of Nursia"
