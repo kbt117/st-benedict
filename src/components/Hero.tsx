@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-4xl px-4 text-center sm:px-6">
+      <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center px-4 text-center sm:px-6">
         <div className="animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
           <span className="inline-block rounded-full border border-gold-300/40 bg-white/10 px-4 py-1.5 text-xs font-medium tracking-widest uppercase text-gold-200 backdrop-blur-sm">
             Diocese of Springfield–Cape Girardeau
