@@ -19,7 +19,7 @@ export default function ParishLife() {
             <div className="mt-5 space-y-4">
               <StaffMember role="Administrator" name="Father Allen Kirchner" contact="tel: (573) 785-9635" />
               <StaffMember role="Associate Pastor" name="Father Samson Dorival"  contact="tel: (573) 351-1107" />
-              <StaffMember role="Administrative Assistant" contact="tel: (573) 351-1107" />
+              <StaffMember role="Administrative Assistant" contact="tel: (573) 351-1107" email="email: office@stbenedictdoniphan.com" />
             </div>
           </div>
 
@@ -92,12 +92,13 @@ export default function ParishLife() {
   );
 }
 
-function StaffMember({ role, name, contact }: { role: string; name: string; contact: string }) {
+function StaffMember({ role, name, contact, email }: { role: string; name: string; contact: string; email: string }) {
   return (
     <div className="flex flex-col">
       <span className="text-[11px] font-semibold uppercase tracking-wider text-gold-300/70">{role}</span>
       <span className="text-sm text-white/80">{name}</span>
       <span className="text-sm text-white/80">{contact}</span>
+      <span className="text-sm text-white/80">{email}</span>
     </div>
   );
 }
