@@ -17,9 +17,9 @@ export default function ParishLife() {
               <span className="text-2xl">👥</span> Our Staff
             </h3>
             <div className="mt-5 space-y-4">
-              <StaffMember role="Administrator" name="Father Allen Kirchner" contact="(573) 785-9635" />
-              <StaffMember role="Associate Pastor" name="Father Samson Dorival"  contact="(573) 351-1107" />
-              <StaffMember role="Administrative Assistant" contact="(573) 351-1107" />
+              <StaffMember role="Administrator" name="Father Allen Kirchner" contact="tel: (573) 785-9635" />
+              <StaffMember role="Associate Pastor" name="Father Samson Dorival"  contact="tel: (573) 351-1107" />
+              <StaffMember role="Administrative Assistant" contact="tel: (573) 351-1107" />
             </div>
           </div>
 
