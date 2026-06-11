@@ -11,18 +11,22 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy-900/75 via-navy-800/55 to-burgundy-800/50" />
       </div>
 
-      {/* St. Benedict image */}
-      <div className="animate-fade-in-up opacity-0 mb-6 flex justify-center" style={{ animationDelay: '0.05s' }}>
-        <div className="rounded-full border-2 border-gold-300/40 p-1 shadow-2xl">
-          <img
-            src="https://www.scross.co.za/wp-content/uploads/2025/06/St-Benedict-of-Nursia.jpg"
-            alt="St. Benedict of Nursia"
-            className="h-28 w-28 sm:h-36 sm:w-36 rounded-full object-cover object-top shadow-lg"
-          />
-        </div>
-      </div>
-      
+    
       {/* Content */}
+      <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center px-4 text-center sm:px-6">
+      
+        {/* St. Benedict image */}
+        <div className="animate-fade-in-up opacity-0 mb-6 flex justify-center" style={{ animationDelay: '0.05s' }}>
+          <div className="rounded-full border-2 border-gold-300/40 p-1 shadow-2xl">
+            <img
+              src="https://www.scross.co.za/wp-content/uploads/2025/06/St-Benedict-of-Nursia.jpg"
+              alt="St. Benedict of Nursia"
+              className="h-28 w-28 sm:h-36 sm:w-36 rounded-full object-cover object-top shadow-lg"
+            />
+          </div>
+        </div>
+
+    <div className="animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
       <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center px-4 text-center sm:px-6">
         <div className="animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
           <span className="inline-block rounded-full border border-gold-300/40 bg-white/10 px-4 py-1.5 text-xs font-medium tracking-widest uppercase text-gold-200 backdrop-blur-sm">
